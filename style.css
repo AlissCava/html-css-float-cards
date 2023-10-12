@@ -5,53 +5,49 @@
   }
 
 #titolo{
-    font-family:com ;
+    font-size: 60px;
+    font-weight: bolder;
     color: rgb(197, 0, 105);
     text-align: center;margin-top: 40px;
 }
 
 #lorem{
-    margin-top: 50px;
     text-align: center;
+    margin-top: 50px;
     margin-left: 15%;
     margin-right: 15%;
 }
 
-#section{
-    width: 200px;
-    height: 200px;
-    margin-right: 50px;
-}
-
-#a{
-    width: 106px;
+#content{
     margin-left: 15%;
-    margin-top: 50px;
-    max-width: 100%;
-    float: left;
+    width: calc (100%/3);
 }
 
-#b{
-    width: 106px;
+img{
+    float: left;
+    height: 106px;
     margin-left: 30px;
     margin-top: 50px;
-    max-width: 100%;
-    float: left;
 }
 
-#foto-righ{
+
+.foto-righ{
     float: left;
     width: 100px;
-    
+
 }
 
-#dati{
+.dati, #dati-colonna3{
     float: left;
     margin-top: 50px;
     padding: 10px;
     padding-right: 80px;
     color: rgb(255, 255, 255);
     background-color: black;
+}
+
+#dati-colonna3{
+    margin-right: 15%;
 }
 
 .nome, .lavoro, .email{
@@ -61,26 +57,3 @@
 .email{
     color: deepskyblue;
 }
-
-
-
-
-
-
-
-
-
-
-
-/* #content{
-      float: left;
-    width: 350px;
-}
-
-#foto-left{
-    position: relative;
-}
-
-#foto-left img{
-    max-width: 100%;
-}  */
