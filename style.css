@@ -5,6 +5,7 @@
   }
 
 #titolo{
+    font-family:com ;
     color: rgb(197, 0, 105);
     text-align: center;margin-top: 40px;
 }
@@ -12,39 +13,49 @@
 #lorem{
     margin-top: 50px;
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-} 
+    margin-left: 15%;
+    margin-right: 15%;
+}
 
 #section{
     width: 200px;
     height: 200px;
-    margin-left: 50px;
     margin-right: 50px;
 }
 
-#foto-left img{
+#a{
+    width: 106px;
+    margin-left: 15%;
     margin-top: 50px;
-    width: 75.5px;
-    margin-left: 200px;
     max-width: 100%;
     float: left;
-    clear: both;
+}
+
+#b{
+    width: 106px;
+    margin-left: 30px;
+    margin-top: 50px;
+    max-width: 100%;
+    float: left;
 }
 
 #foto-righ{
     float: left;
     width: 100px;
-    clear: both;
+    
 }
 
 #dati{
     float: left;
     margin-top: 50px;
     padding: 10px;
-    padding-right: 50px;
+    padding-right: 80px;
     color: rgb(255, 255, 255);
     background-color: black;
+}
+
+.nome, .lavoro, .email{
+    padding: 5px;
 }
 
 .email{
